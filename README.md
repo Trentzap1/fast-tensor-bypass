@@ -64,3 +64,5 @@ def parsons_heuristic(E_past, E_future, r, rho, G=6.67430e-11, c=299792458.0, ep
     dt = (3 * (E_past - E_future)) / (2 * math.pi * (r**2) * rho * (c**3) * warp_factor)
     
     return dt
+
+Authored by Parsons. Released under the MIT License.
